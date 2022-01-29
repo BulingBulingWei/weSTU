@@ -1,0 +1,13 @@
+<!--pages/DieJin/DJ_Map/dj_map.wxml-->
+<title innerText="校园导览"></title>
+<info innerArray="{{arr}}"></info>
+<view class='lineCon'>
+  <view class='rowBlue'></view>
+  <view>点击查看大图</view>
+</view>
+
+<view style='position: relative;'>
+  <image src="https://s1.ax1x.com/2020/10/03/03U2As.md.jpg" data-viewImgUrl="https://s1.ax1x.com/2020/10/03/03U2As.jpg"
+    bindtap='viewImg' class='sdustMap' mode="widthFix"></image>
+</view>
+

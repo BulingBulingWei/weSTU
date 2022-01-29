@@ -1,0 +1,3 @@
+<!--pages/DieJin/DJ_Network/dj_network.wxml-->
+<title innerText="网络相关"></title>
+<info innerArray="{{data}}"></info>

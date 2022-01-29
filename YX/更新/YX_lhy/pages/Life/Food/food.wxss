@@ -1,0 +1,12 @@
+/* pages/Life/Food/food.wxss */
+@import '../base.wxss';
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}

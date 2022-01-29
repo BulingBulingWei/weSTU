@@ -1,0 +1,3 @@
+<!--pages/Life/Anti-epidemic/anti-epidemic.wxml-->
+<title innerText="抗疫相关"></title>
+<info innerArray="{{data}}"></info>

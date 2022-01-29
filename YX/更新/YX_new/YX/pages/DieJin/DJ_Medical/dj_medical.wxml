@@ -1,0 +1,3 @@
+<!--pages/DieJin/DJ_Medical/dj_medical.wxml-->
+<title innerText="医疗相关"></title>
+<info innerArray="{{data}}"></info>

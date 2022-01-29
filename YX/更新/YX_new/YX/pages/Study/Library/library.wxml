@@ -1,0 +1,3 @@
+<!--pages/Study/Library/library.wxml-->
+<title innerText="图书馆指南"></title>
+<info innerArray="{{data}}"></info>

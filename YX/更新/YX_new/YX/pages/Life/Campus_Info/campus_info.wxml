@@ -1,0 +1,3 @@
+<!--pages/Life/Campus_Info/campus_info.wxml-->
+<title innerText="校标介绍"></title>
+<info innerArray="{{data}}"></info>

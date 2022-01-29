@@ -1,0 +1,40 @@
+<view class='lineCon' style='margin-bottom:10px;'>
+  <view class='rowBlue'></view>
+  <view>节假日安排</view>
+</view>
+
+<view class='card'>
+    <view class='supple'>以下为2021年部分节假日安排,2022年的安排学校尚未公布</view>
+</view>
+
+<view class='card'>
+  <view class='left'>2021年暑假</view>
+  <view class='right'>
+    <view class='assis'>你懂得</view>
+    <view class='supple'>已经结束</view>
+  </view>
+</view>
+
+<view class='card'>
+  <view class='left'>中秋节</view>
+  <view class='right'>
+    <view class='assis'>9月19日~9月21日(3天)</view>
+    <view class='supple'>9月18日(周六)上课</view>
+  </view>
+</view>
+
+<view class='card'>
+  <view class='left'>国庆节</view>
+  <view class='right'>
+    <view class='assis'>10月1日~10月7日(7天)</view>
+    <view class='supple'>9月26日(周日)、10月9日(周六)上课</view>
+  </view>
+</view>
+
+<view class='card'>
+  <view class='left'>2022年寒假</view>
+  <view class='right'>
+    <view class='assis'>未知</view>
+  
+  </view>
+</view>

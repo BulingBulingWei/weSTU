@@ -1,0 +1,7 @@
+<!--pages/DieJin/DJ_classTime/dj_classtime.wxml-->
+<title innerText="早上"></title>
+<info innerArray="{{classData0}}"></info>
+<title innerText="下午"></title>
+<info innerArray="{{classData1}}"></info>
+<title innerText="晚上"></title>
+<info innerArray="{{classData2}}"></info>

@@ -1,0 +1,24 @@
+
+
+<!--pages/Life/Food/food.wxml-->
+<title innerText="外卖相关"></title>
+<!--<info innerArray="{{data}}"></info>-->
+
+<view class='infoCon card col'>
+    <view style='white-space:pre-wrap'>
+      声明：
+      ①以下外卖商家的配送方式仅适用于学校封闭阶段，学校解封后可能会有所调整。
+      ②以下信息由团队成员进行收集与共享，仅供参考，若与实际情况不符，请以实际为准。
+      ③WeSTU与以下商家没有任何商业联系。
+    </view>
+</view>
+
+<view wx:for="{{data}}" wx:key="{{index}}">
+    <view class='infoCon card col'>
+      <view class="supple">{{item.content}}</view>
+        <view class="row">
+          <text class="supple">微信号(点击复制)：</text>
+          <view data-copy='{{item.ps}}' bindtap='copy' class='link'>{{item.ps}}</view>
+        </view>
+    </view>
+</view>

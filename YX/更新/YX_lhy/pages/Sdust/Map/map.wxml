@@ -1,0 +1,32 @@
+<title innerText="校园导览"></title>
+
+  <view class='card supple'>
+    <text class="center fontStyle" >点击跳转“汕大校园导览”小程序</text>
+    <button class='btn '  bindtap="goToMiniPro">
+    <image class='btnImg' src='/vector/img/navigation.png'></image>
+    <view>点我不迷路</view>
+ </button>
+  </view>
+
+<view class='lineCon'>
+  <view class='rowBlue'></view>
+  <view>手绘版地图(点击查看大图)</view>
+</view>
+
+<view style='position: relative;'>
+  <image src="https://ae01.alicdn.com/kf/Hd9cd4942b4da49f4be8d1e178a5745f9b.jpg" data-viewImgUrl="https://ae01.alicdn.com/kf/Hd9cd4942b4da49f4be8d1e178a5745f9b.jpg"
+    bindtap='viewImg' class='sdustMap' mode="widthFix"></image>
+  <!-- <view class='ImgFrom'>山东科技大学新闻媒体部制</view> -->
+</view>
+
+<!-- <title innerText="在线地图"></title>
+<view class='lineCon' style='margin-top:5px;'>
+  <view class='rowBlue'></view><view>在线地图</view></view>
+<view class='tips'>
+  <view style='background:{{point}};' class='point'></view>
+  <view class='info'>{{info}}</view>
+  <view class='loc'>{{showLongitude}}</view>
+  <view class='loc'>{{showLatitude}}</view>
+</view>
+<map class='sdustMap' longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" covers="{{covers}}" show-location>
+</map> -->

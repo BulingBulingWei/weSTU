@@ -1,0 +1,5 @@
+<!--pages/Senior/senior/senior.wxml-->
+<title innerText="学长学姐 | 指点迷津"></title>
+<info innerArray="{{data}}"></info>
+
+

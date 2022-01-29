@@ -1,0 +1,3 @@
+<!--pages/DieJin/DJ_Canteen/dj_canteen.wxml-->
+<title innerText="餐厅相关"></title>
+<info innerArray="{{data}}"></info>

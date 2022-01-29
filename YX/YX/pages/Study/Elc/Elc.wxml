@@ -1,0 +1,5 @@
+<title innerText="入学英语分级考试"></title>
+<info innerArray="{{Data0}}"></info>
+<title innerText="ELC"></title>
+<info innerArray="{{Data1}}"></info>
+

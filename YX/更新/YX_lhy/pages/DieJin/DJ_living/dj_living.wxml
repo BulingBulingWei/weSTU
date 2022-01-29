@@ -1,0 +1,3 @@
+<!--pages/DieJin/DJ_living/dj_living.wxml-->
+<title innerText="宿舍相关"></title>
+<info innerArray="{{data}}"></info>

@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/Home/Index/index",
+    "pages/Home/NotFound/notfound",
+    "pages/Home/InterWork/interwork",
+    "pages/User/About/about",
+    "pages/NewStu/AntiFraud/antifraud",
+    "pages/NewStu/Payment/payment",
+    "pages/NewStu/MilTrain/miltrain",
+    "pages/Sdust/Canlendar/calendar",
+    "pages/Sdust/Vacation/vacation",
+    "pages/Sdust/Map/map",
+    "pages/Study/Major/major",
+    "pages/Study/Link/link",
+    "pages/Study/League/league",
+    "pages/Study/Time/time",
+    "pages/Study/Cet/Cet",
+    "pages/Study/Ky/Ky",
+    "pages/Study/Elc/Elc",
+    "pages/Study/Credit/Credit",
+    "pages/Life/Power/power",
+    "pages/Life/Computer/computer",
+    "pages/Life/Living/living",
+    "pages/Life/Network/network",
+    "pages/Life/Canteen/canteen",
+    "pages/Life/Shower/shower",
+    "pages/Life/Medical/medical",
+    "pages/Life/Traffic/traffic",
+    "pages/Life/Getup/getup",
+    "pages/Life/Express/express",
+    "pages/Senior/senior/senior",
+    "pages/Home/DieJin_Index/DieJin_index",
+    "pages/NewStu/Necessary/necessary",
+    "pages/Life/Food/food",
+    "pages/Life/Anti-epidemic/anti-epidemic",
+    "pages/Study/Library/library",
+    "pages/Life/Campus_Info/campus_info",
+    "pages/DieJin/Bus_Time/bus_time",
+    "pages/DieJin/DJ_Express/dj_express",
+    "pages/DieJin/DJ_classTime/dj_classtime",
+    "pages/DieJin/DJ_living/dj_living",
+    "pages/DieJin/DJ_Network/dj_network",
+    "pages/DieJin/DJ_Medical/dj_medical",
+    "pages/DieJin/DJ_Canteen/dj_canteen",
+    "pages/DieJin/DJ_Map/dj_map"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "WeSTU",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于嵙地图的定位功能"
+    }
+  },
+  "usingComponents": {
+    "title": "/Components/title/title",
+    "info": "/Components/info/info"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list":[
+      {
+        "pagePath":"pages/Home/DieJin_Index/DieJin_index",
+        "text":"叠金",
+        "iconPath": "vector/img/address.png",
+        "selectedIconPath": "vector/img/address_green.png"
+      },
+      {
+        "pagePath":"pages/Home/Index/index",
+        "text":"本部",
+        "iconPath": "vector/img/home.png",
+        "selectedIconPath": "vector/img/home_green.png"
+        
+      },
+      {
+        "pagePath":"pages/Senior/senior/senior",
+        "text":"学长学姐说",
+        "iconPath": "vector/img/envelop.png",
+        "selectedIconPath": "vector/img/envelop_green.png"
+      }
+    ],
+    "position": "bottom",
+    "borderStyle": "white"
+  }
+}

@@ -1,0 +1,4 @@
+<title innerText="学分制"></title>
+<info innerArray="{{Data0}}"></info>
+<title innerText="其他课程"></title>
+<info innerArray="{{Data1}}"></info>

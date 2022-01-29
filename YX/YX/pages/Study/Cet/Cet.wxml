@@ -1,0 +1,12 @@
+<title innerText="Cet4/6"></title>
+<info innerArray="{{classData0}}"></info>
+<view class='lineCon'>
+    <view class='rowBlue'></view>
+    <view>四六级考试题型及时间分配 点击看图</view>
+</view>
+
+<view style='position: relative;'>
+    <image src="https://ae01.alicdn.com/kf/Hf473aeb523f84a41a312fc7087fcb32cN.png" data-viewImgUrl="https://ae01.alicdn.com/kf/Hf473aeb523f84a41a312fc7087fcb32cN.png" bindtap='viewImg' class='sdustMap' mode="widthFix"></image>
+</view>
+<title innerText="复习建议"></title>
+<info innerArray="{{classData1}}"></info>

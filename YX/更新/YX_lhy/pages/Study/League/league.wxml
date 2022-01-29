@@ -1,0 +1,17 @@
+<title innerText="各书院内社团"></title>
+<info innerArray="{{Data}}"></info>
+
+<title innerText="校级社团一览表"></title>
+
+<view style='border-left:1px solid #eee;border-top:1px solid #eee;'>
+  <view class='line' >
+    <view class='unit wilimt'>序号</view>
+    <view class='unit '>社团名称</view>
+    <view class='unit'>社团类别</view>
+  </view>
+  <view wx:for="{{data}}" wx:key="{{index}}" class='line'>
+    <view class='unit wilimt' >{{index}}</view>
+      <view class='unit'>{{item[0]}}</view>
+      <view class='unit'>{{item[1]}}</view>
+  </view>
+</view>

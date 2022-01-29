@@ -1,0 +1,3 @@
+<!--pages/DieJin/DJ_Express/dj_express.wxml-->
+<title innerText="快递相关"></title>
+<info innerArray="{{data}}"></info>

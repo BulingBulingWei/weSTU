@@ -1,0 +1,3 @@
+<!--pages/NewStu/Necessary/necessary.wxml-->
+<title innerText="必带物品"></title>
+<info innerArray="{{data}}"></info>

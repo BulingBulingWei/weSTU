@@ -1,0 +1,3 @@
+<!--pages/DieJin/DJ_Water&Elect/dj_water&elect.wxml-->
+<title innerText = "水电相关"></title>
+<info innerArray = "{{data}}"></info>

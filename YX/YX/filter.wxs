@@ -1,0 +1,16 @@
+//   将由于数据库编码问题导致的//n转换为/n
+//   参考网址：https://blog.csdn.net/weixin_40285832/article/details/90753467?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
+
+
+var format = function (text) {
+	if (!text) {
+        return
+    }
+    var reg = getRegExp('\\\\n','g')
+    //let reg = '/\\/g'
+    return text.replace(reg,'\\n')
+}
+
+module.exports = {
+    format:format
+}
